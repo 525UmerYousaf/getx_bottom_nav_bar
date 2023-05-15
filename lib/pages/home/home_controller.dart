@@ -1,3 +1,5 @@
 import 'package:get/get.dart';
 
-class HomePage extends GetxController {}
+class HomePageController extends GetxController {
+  final String title = "Home Page Title";
+}
