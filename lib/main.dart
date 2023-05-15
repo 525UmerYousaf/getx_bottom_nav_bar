@@ -17,6 +17,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      initialRoute: "/",
+      getPages: [
+        GetPage(
+          name: "/",
+          page: () => MyDashBoard(),
+        ),
+      ],
       home: MyDashBoard(),
     );
   }
